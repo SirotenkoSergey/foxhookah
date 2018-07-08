@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 503.1 239.3" style="enable-background:new 0 0 503.1 239.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="XMLID_2_">
+	<g>
+		<path class="st0" d="M320.1,125.7l31.3,57.6L240.2,236l-111.1-51.9l31.3-59.3L144.8,8.7L214,80.3h53.5l68.3-71.6L320.1,125.7z
+			 M342.3,180l-28.8-54.3l12.3-95.5l-55.2,57.6h-59.3l-56-57.6l13.2,95.5L139.8,180l101.3,47.7L342.3,180z"/>
+		<path class="st1" d="M313.5,125.7l28.8,54.3l-46.1-11.5l-35.6,29.7l-19.6-8.3l-20.4,8.2l-36.5-29.6L139.8,180l28.8-54.3
+			l-13.2-95.5l56,57.6h59.3l55.2-57.6L313.5,125.7z M281.7,151.5l18.1-22.2l-45.4,26L281.7,151.5z"/>
+		<polygon class="st1" points="260.7,198.2 296.2,168.5 342.3,180 241.1,227.8 139.8,180 184.3,168.5 220.7,198.1 241.1,214.6 		"/>
+		<polygon class="st0" points="299.8,129.3 281.7,151.5 254.4,155.3 		"/>
+		<polygon class="st0" points="260.7,198.2 241.1,214.6 220.7,198.1 241.1,189.9 		"/>
+	</g>
+	<g>
+		<polygon class="st2" points="144.7,8.8 160.3,124.9 129.1,184.1 240.2,236 351.3,183.3 320.1,125.7 335.7,8.8 267.4,80.4 
+			213.9,80.4 		"/>
+		<polygon class="st3" points="139.8,180 168.6,125.7 155.4,30.2 211.4,87.8 270.7,87.8 325.9,30.2 313.5,125.7 342.3,180 
+			241.1,227.8 		"/>
+		<polyline class="st3" points="260.7,198.2 296.2,168.5 342.3,180 		"/>
+		<polyline class="st4" points="139.8,180 184.3,168.5 220.7,198.1 		"/>
+		<polyline class="st4" points="260.7,198.2 260.7,198.2 241.1,189.9 220.7,198.1 241.1,214.6 260.7,198.2 		"/>
+		<polygon class="st3" points="254.4,155.3 281.7,151.5 299.8,129.3 		"/>
+	</g>
+</g>
+<polygon class="st5" points="227.7,156.4 200.3,153.1 182.2,130.9 "/>
+<path class="st0" d="M-1,209.6v-159h116.3v18.8H20.1v49.2h99.1v18.8H20.1v72.2H-1L-1,209.6z"/>
+<path class="st0" d="M357.3,209.6l61.5-82.9l-54.2-76.1h25.1l28.8,40.8c6,8.5,10.3,15,12.8,19.5c3.5-5.8,7.7-11.8,12.6-18.1l32-42.2
+	h22.9l-55.9,74.9l60.2,84.1h-26l-40-56.7c-2.2-3.3-4.6-6.8-6.9-10.6c-3.5,5.8-6.1,9.8-7.6,11.9l-39.9,55.4H357.3L357.3,209.6z"/>
+</svg>

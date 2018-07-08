@@ -1,0 +1,3 @@
+<?php
+    echo "reviews page";
+?>
