@@ -18,9 +18,13 @@
                     <div class="mm-wrapper col-md-8">
                         <ul>
                         <?php
+                            $root_route = "/welcome/index";
+                            if(isset($_SERVER['PATH_INFO'])) {
+                                $root_route = $_SERVER['PATH_INFO'];
+                            }
                             foreach ($links->result() as $row)
                             {
-                                if($_SERVER['PATH_INFO'] == $row->href) {
+                                if($root_route == $row->href) {
                                     echo "<li class='col-md-3 active'><a href='/index.php".$row->href."'>".$row->name."</a></li>";
                                 }else{
                                     echo "<li class='col-md-3'><a href='/index.php".$row->href."'>".$row->name."</a></li>";
