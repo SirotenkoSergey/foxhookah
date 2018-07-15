@@ -253,3 +253,38 @@ footer {
 .clients-item:hover > .btn {
     display: inline-block;
 }
+/*===REVIEWS===*/
+.review-item {
+    margin-bottom: 15px;
+}
+.review-item .review-img {
+    border-radius: 50%;
+}
+.review-item h4 {
+    margin-bottom: 8px;
+}
+.review-item p {
+    color: #777777;
+    font-size: 14px;
+}
+.revirew-form-wrapper {
+    margin: 15px 0px;
+}
+.revirew-form-wrapper .form-group{
+    margin-bottom: 8px;
+}
+.revirew-form-wrapper label{
+    text-align: right;
+}
+.revirew-form-wrapper input,
+.revirew-form-wrapper textarea {
+    width: 100%;
+    background: #f1f1f1;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+.revirew-form-wrapper .submit-form-wrapper {
+    text-align: center;
+    margin-bottom: 30px;
+}
