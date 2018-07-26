@@ -85,6 +85,7 @@ header {
     min-height: 800px;
     padding-top: 135px;
     color: #fff;
+    box-shadow: -2px -2px 25px #111;
 }
 .banner-content h1,
 .banner-content h3 {
