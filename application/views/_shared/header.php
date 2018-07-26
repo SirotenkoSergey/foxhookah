@@ -51,9 +51,9 @@
                 <div class="banner-contacts">
                     <p><i class="fa fa-phone"></i>8-903-400-11-55</p>
                     <div>
-                        <i class="fa fa-vk"></i>
-                        <i class="fa fa-whatsapp"></i>
-                        <i class="fa fa-instagram"></i>
+                        <a href="https://vk.com/fox_hookah"><i class="fa fa-vk"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/fox_hookahs/"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="banner-content">

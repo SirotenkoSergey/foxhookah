@@ -5,10 +5,10 @@
                     <div class="col-md-6">
                         <button class="btn btn-default">Связаться с нами</button>
                     </div>
-                    <div class="col-md-offset-1 col-md-2">
-                        <i class="fa fa-vk"></i>
-                        <i class="fa fa-whatsapp"></i>
-                        <i class="fa fa-instagram"></i>
+                    <div class="col-md-offset-1 col-md-2 footer-contacts">
+                        <a href="https://vk.com/fox_hookah"><i class="fa fa-vk"></i></a>
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/fox_hookahs/"><i class="fa fa-instagram"></i></a>
                     </div>
                     <div class="col-md-4">
                         <p><i class="fa fa-phone"></i> 8-903-400-11-55</p>
