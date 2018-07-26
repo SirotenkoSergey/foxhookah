@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="/assets/img/icon.svg" sizes="any" type="image/svg+xml">
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" />
         <link rel="stylesheet" href="/assets/libraries/jquey-ui/jquery-ui.min.css" /> 
         <link rel="stylesheet" href="/assets/css/font-awesome.min.css" /> 
