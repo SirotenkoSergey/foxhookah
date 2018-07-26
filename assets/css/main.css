@@ -41,7 +41,8 @@ header {
     left: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
-    z-index: 1000;
+    z-index: 1000;  
+    box-shadow: -2px -2px 15px;
 }
 .ui-selectmenu-menu {
     position: fixed;
