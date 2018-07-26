@@ -7,6 +7,10 @@
 a {
     text-decoration: none;
 }
+p {
+    line-height: 28px;
+    margin: 20px 0px;
+}
 .btn  {
     padding: 8px 40px;
     text-transform: uppercase;
@@ -203,10 +207,6 @@ footer {
 .delivery-content {
     margin-bottom: 25px;
 }
-.delivery-content p {
-    line-height: 28px;
-    margin: 20px 0px;
-}
 /*===CLIENTS===*/
 .clients-wrapper {
     font-size: 0em;
@@ -287,4 +287,19 @@ footer {
 .revirew-form-wrapper .submit-form-wrapper {
     text-align: center;
     margin-bottom: 30px;
+}
+/*===CATEGORIES===*/
+.categories-wrapper {
+    margin: 75px 0px;
+}
+.categories-item {
+    text-align: center;
+    padding: 30px;
+}
+.categories-item h3 {
+    color: #191919;
+    font-weight: 400;
+}
+.categories-item img {
+    width: 100%;
 }

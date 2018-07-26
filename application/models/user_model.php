@@ -7,7 +7,7 @@ class User_model extends CI_Model {
         $query = $this->db->get('users');
         return $query->result_array();  
     }
-
+    
     public function add_user($data) {
         $check = $this->check_user($data['email']);
         if(!$check) {
