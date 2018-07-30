@@ -44,7 +44,16 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid map-wrapper">
-	<h3 class="block-title">ГДЕ <span class="red">КУПИТЬ</span>?</h3>
-	<div id="map"></div>
+<div class="container">
+	<div class="p-list-wrapper row">
+		<?php foreach($products as $product) { ?>
+		<div class="p-list-item col-md-6">
+			<img src="<?= $product['img_sourse'] ?>" class="p-image" />
+			<div class="p-description">
+				<h3><?= $product['name'] ?></h3>
+				<p><?= $product['description'] ?></p>
+			</div>
+		</div>
+		<?php } ?>
+	</div>
 </div>

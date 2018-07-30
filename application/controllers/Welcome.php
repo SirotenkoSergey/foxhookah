@@ -6,12 +6,16 @@ class Welcome extends Root {
 
 	public function index()
 	{
-		$this -> render_body('welcome_message');
+		$this->load->model('product_model');
+		$data['products'] = $this->product_model->get_all_products();
+		$this->render_body('welcome_message', $data);
 	}
 
 	public function locations()
 	{
-		$this->render_body('locations');
+		$this->load->model('locations_model');
+		$data['stores'] = $this->locations_model->get_stores_by_id(1);
+		$this->render_body('locations', $data);
 	}
 	
 	public function reviews()
