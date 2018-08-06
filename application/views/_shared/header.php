@@ -13,8 +13,9 @@
             <div class="container">
                 <div class="row">
                     <div class="logo-wrapper col-md-2">
-
-                        <img src="/assets/img/logo.svg" alt="logo" />
+                        <a href="/">
+                            <img src="/assets/img/logo.svg" alt="logo" />
+                        </a>
                     </div>
                     <div class="mm-wrapper col-md-8">
                         <ul>
