@@ -48,11 +48,13 @@
 	<div class="p-list-wrapper row">
 		<?php foreach($products as $product) { ?>
 		<div class="p-list-item col-md-6">
-			<img src="<?= $product['img_sourse'] ?>" class="p-image" />
-			<div class="p-description">
-				<h3><?= $product['name'] ?></h3>
-				<p><?= $product['description'] ?></p>
-			</div>
+			<a href="/index.php/welcome/product_details?id=<?= $product['id'] ?>">
+				<img src="<?= $product['img_sourse'] ?>" class="p-image" />
+				<div class="p-description">
+					<h3><?= $product['name'] ?></h3>
+					<p><?= $product['description'] ?></p>
+				</div>
+			</a>
 		</div>
 		<?php } ?>
 	</div>

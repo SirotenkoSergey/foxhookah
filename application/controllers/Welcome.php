@@ -47,4 +47,13 @@ class Welcome extends Root {
 	private function new_review_isset() {
 		return isset($_POST['user_firstname']) && isset($_POST['user_secondname']) && isset($_POST['email']) && isset($_POST['content']);
 	}
+
+	public function product_details() {
+		if(isset($_GET['id'])) {
+			$this->load->model('product_model');
+			$products = $this->product_model->get_product_detail($_GET['id']);
+			$data["product_detail"] = $products[0];
+			$this->render_body('product_detail', $data);
+		}
+	}
 }

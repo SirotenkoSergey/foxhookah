@@ -36,7 +36,7 @@ $(document).ready(function(){
         window.close();
     });
  
-    $(".banner-content a, footer .btn, .clients-item .btn").on("click", function(){
+    $(".banner-content a, footer .btn, .clients-item .btn, .send-order").on("click", function(){
         $("#feedback-modal").fadeIn(200);
     });
 
