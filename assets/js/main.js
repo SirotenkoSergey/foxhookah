@@ -43,4 +43,30 @@ $(document).ready(function(){
     $(".modal-close").on("click", function(){
         $(".modal-wrapper").fadeOut(200);
     });
+
+    var Gallery = function(galleryMain, galleryNavItem) {
+        self = this;
+        this.galleryMain = galleryMain;
+        this.galleryNavItem = galleryNavItem;
+        this.galleryChangeEvent();
+        this.galleryNavItem.on("click", function(){
+            self.galleryChengeURL($(this).attr("src"));
+        });
+    };
+
+    Gallery.prototype = {
+        galleryChengeURL: function(newURL) {
+            this.galleryMain.attr("src", newURL);
+            this.galleryChangeEvent();
+        },
+        galleryChangeEvent: function() {
+            console.log(this.galleryNavItem, this.galleryMain)
+            self = this;
+            this.galleryNavItem.each(function(){
+                $(this).hasClass("active") ? $(this).removeClass("active") : null ;
+                $(this).attr("src") == self.galleryMain.attr("src") ? $(this).addClass("active") : null ;
+            });
+        }
+    }
+    var gallery = new Gallery($(".gallery-main"), $(".gallery-item img"));
 });

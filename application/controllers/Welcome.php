@@ -53,6 +53,7 @@ class Welcome extends Root {
 			$this->load->model('product_model');
 			$products = $this->product_model->get_product_detail($_GET['id']);
 			$data["product_detail"] = $products[0];
+			$data["product_resourses"] = $this->product_model->get_product_resourses($_GET['id']);
 			$this->render_body('product_detail', $data);
 		}
 	}

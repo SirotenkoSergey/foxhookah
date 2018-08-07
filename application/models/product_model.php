@@ -14,5 +14,12 @@ class Product_model extends CI_Model {
         $query = $this->db->get();
         return $query->result();
     }
+    public function get_product_resourses($product_id) {
+        $this->db->select();
+        $this->db->from('product_resourses');
+        $this->db->where('product_id', $product_id);
+        $query = $this->db->get();
+        return $query->result();
+    }
 
 }

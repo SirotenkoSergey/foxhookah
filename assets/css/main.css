@@ -333,13 +333,12 @@ footer {
 } 
 .p-list-item .p-description {
     position: absolute;
-    top: 0px;
     left: 0px;
+    bottom: 0px;
     padding: 25px;
     background-color: rgba(0,0,0,.6);
     color: #fff;
     width: 100%;
-    height: 100%;
 }
 .product-detail-content {
     margin: 50px auto;
@@ -350,4 +349,16 @@ footer {
 .product-detail-content h1 {
     color: #222;
     margin-bottom: 15px;
+}
+
+.p-list-item .p-description p {
+    margin: 10px 0px;
+}
+/*=== PRODUCT CARD ===*/
+.gallery-item-img {
+    width: 24.2% !important;
+    cursor: pointer;
+}
+.gallery-item-img.active {
+    border: 2px solid red;
 }

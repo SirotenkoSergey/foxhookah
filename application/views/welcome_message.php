@@ -52,7 +52,7 @@
 				<img src="<?= $product['img_sourse'] ?>" class="p-image" />
 				<div class="p-description">
 					<h3><?= $product['name'] ?></h3>
-					<p><?= $product['description'] ?></p>
+					<p>Подробнее ⇒</p>
 				</div>
 			</a>
 		</div>
